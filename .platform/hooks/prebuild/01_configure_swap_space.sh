@@ -2,8 +2,8 @@
 
 SWAPFILE=/var/swapfile
 
-if [-f $SWAPFILE]; then
-    echo "SWAPFILE found, skip"
+if [ -f $SWAPFILE ]; then
+    echo "$SWAPFILE found, skip"
     exit;
 fi
 
